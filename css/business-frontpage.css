@@ -11,8 +11,9 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .business-header {
-    height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    height: 300px;
+    background: url('/img/splash.png') center center no-repeat scroll;
+/*    background-color: #77DD77;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -20,10 +21,13 @@ body {
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
-
 .tagline {
     text-shadow: 0 0 10px #000;
     color: #fff;
+    text-align: center
+}
+.navbar{
+    background-color: ;
 }
 
 .img-center {
@@ -32,4 +36,31 @@ body {
 
 footer {
     margin: 50px 0;
+}
+.panel{margin-top: 10px}
+.panel-title{font-size: 30px; text-align: center}
+.panel-body .col-md-4{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.panel-body .widget{
+    display: inline;
+    margin-top: 0px;
+}
+.btn{border-color: #B4CFEC; 
+    border-width: 5px}
+.skill-table p, .progress{
+    margin-top: 20px;
+}
+.skill-table img{
+    margin-top:10px;
+}
+.col-md-3 .btn{
+    margin-bottom: 30px;
+}
+#continue{
+    display: block;
+    margin: auto;
+    font-size: 54px;
+    padding: 20px;
 }
